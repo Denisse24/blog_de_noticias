@@ -2,11 +2,11 @@
 
 //traer los datos de las APIs
 $noticasApi = file_get_contents('http://newsapi.org/v2/top-headlines?country=mx&category=technology&apiKey=f12a53eec4a946539e3e972333111d5f');
-$noticias  = json_decode($noticasApi, true);
-$articulos = $noticias['articles'];
+$noticias   = json_decode($noticasApi, true);
+$articulos  = $noticias['articles'];
 
 $autoresApi = file_get_contents('https://randomuser.me/api/?results='.count($articulos).'&nat=es&?format=json');
-$autores  = json_decode($autoresApi, true);
+$autores    = json_decode($autoresApi, true);
 
 
 //se agregan los autores al arreglo de noticias
