@@ -1,0 +1,39 @@
+.body-color{
+    background-color: #f8f9fa!important;
+}
+
+#tarjetaLink {
+    color: #212529;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#tarjetaLink:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+.img-height{
+    height: 250px;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.card-title{
+    text-align: justify;
+}
+
+.noticia:hover {
+    box-shadow: 0 0 15px rgba(33, 33, 33, 0.36);
+    cursor: pointer;
+}
+
+.header-margin{
+    margin-bottom: 20px;
+}
+
+.nav-color{
+    background-color: #1a5a80d4!important;
+}
